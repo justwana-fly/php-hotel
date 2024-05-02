@@ -1,6 +1,6 @@
 <?php
 $template = "";
-foreach ($hotels as $hotel) {
+foreach ($motels as $hotel) {
     $template .= "<tr> <td>
     {$hotel['name']}</td> <td>
     {$hotel['description']}</td> <td>

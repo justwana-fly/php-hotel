@@ -21,13 +21,13 @@
     <header>
         <div class="container  d-flex justify-content-between ">
             <h1>
-                Data Steam
+                Hotels
             </h1>
             <form action="index.php" method="GET">
-
                 <select class="form-control me-2" name="stats">
                     <option value="all">All</option>
-                    <option value="0">parking</option>
+                    <option value="1">parking</option>
+                    <option value="0">no parking</option>
                 </select>
                 <button type="submit" class="btn btn-outline-success">Search</button>
             </form>
